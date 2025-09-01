@@ -1,0 +1,17 @@
+.insta {
+  width: 100px;
+  height: 100px;
+  border: 3px solid purple;
+  border-radius: 999px;
+  padding: 3px;
+  object-fit: cover;
+}
+
+.kane {
+  width: 100px;
+  height: 100px;
+  border: 3px solid pink;
+  border-radius: 999px;
+  padding: 3px;
+  object-fit: cover;
+}
