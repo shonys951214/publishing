@@ -1,0 +1,32 @@
+.facebook {
+  color: white;
+  font-size: 30px;
+  /* 글씨크기 16px 기본값 */
+  font-weight: 700;
+  background-color: #1877f2;
+  border: 1px solid #1877f2;
+  border-radius: 20px;
+  padding: 20px 40px 20px 40px;
+  margin-right: 20px;
+}
+
+.google {
+  font-size: 30px;
+  font-weight: 700;
+  background-color: white;
+  border: 1px solid white;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  border-radius: 20px;
+  padding: 20px 40px 20px 40px;
+  margin-right: 20px;
+}
+
+.apple {
+  color: white;
+  font-size: 30px;
+  font-weight: 700;
+  background-color: black;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 20px 40px 20px 40px;
+}
