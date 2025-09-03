@@ -1,0 +1,103 @@
+section {
+  padding: 50px;
+  background-color: #f7f8fb;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 50px;
+}
+.title > h2 {
+  font-size: 56px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.title > span {
+  color: #0066cc;
+}
+
+.products {
+  display: flex;
+  padding: 50px;
+  justify-content: space-around;
+}
+
+.phone {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.name {
+  margin-top: 40px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #1d1d1f;
+}
+.sub {
+  margin-top: 30px;
+  color: #1d1d1f;
+}
+.price {
+  margin-top: 20px;
+  color: #1d1d1f;
+  font-weight: 700;
+}
+.buttons {
+  margin-top: 40px;
+
+  display: flex;
+  align-items: center;
+}
+.more {
+  border: none;
+  color: white;
+  background-color: #0071e3;
+  border-radius: 30px;
+  padding: 11px 21px;
+  font-size: 17px;
+}
+.purchase {
+  border: none;
+  padding: 11px 21px;
+  color: #0071e3;
+  background-color: white;
+  border-radius: 30px;
+  font-size: 17px;
+}
+.colors {
+  display: flex;
+  gap: 3px;
+  margin-top: 40px;
+}
+.circle {
+  width: 11px;
+  height: 11px;
+  border-radius: 9999px;
+}
+.brown {
+  background-color: #bfa48f;
+}
+.titanium {
+  background-color: #c2bcb2;
+}
+.white {
+  background-color: white;
+}
+.black {
+  background-color: black;
+}
+.hover {
+  transition: all 0.5s;
+}
+.hover:hover {
+  transform: scale(1.05);
+}
+.title > span {
+  transition: all;
+}
+.title > span:hover {
+  text-decoration: underline;
+}

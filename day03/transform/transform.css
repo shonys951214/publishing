@@ -1,0 +1,17 @@
+button {
+  padding: 11px 22px;
+  border-radius: 30px;
+  border: none;
+  background-color: #00a5b9;
+}
+button:hover {
+  background-color: green;
+}
+
+button > i {
+  color: #fdcd00;
+}
+button > span {
+  color: white;
+  font-weight: 700;
+}
