@@ -1,0 +1,44 @@
+header {
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+nav {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  object-fit: cover;
+}
+
+.menu_wrap {
+  display: flex;
+  gap: 10px;
+}
+.menu {
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 14px 16px;
+}
+.menu:hover {
+  background-color: rgb(229, 231, 235);
+}
+
+.ably {
+  color: #ff5160;
+}

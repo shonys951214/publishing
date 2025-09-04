@@ -1,0 +1,9 @@
+.menu {
+  padding: 0px 50px;
+  display: flex;
+}
+.beverage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

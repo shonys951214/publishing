@@ -1,0 +1,99 @@
+section {
+  width: 100vw;
+  height: 100vh;
+  /* 행렬 <= 엑셀판, 바둑판, 체스판 */
+  /* 자식을 엑셀판, 바둑판화 하기 */
+  display: grid;
+  /* repeat  (몇줄, 1fr) */
+  grid-template-columns: repeat(5, 1fr);
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.box:hover > .copy {
+  opacity: 1;
+}
+.copy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 50px;
+  color: white;
+  border: 2px solid hsla(0, 0%, 100%, 0.2);
+  border-radius: 10px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.name {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  color: white;
+}
+
+.q {
+  background-color: #f6e58d;
+}
+.w {
+  background-color: #ffbe76;
+}
+.e {
+  background-color: #ff7979;
+}
+.r {
+  background-color: #badc58;
+}
+.t {
+  background-color: #dff9fb;
+}
+.y {
+  background-color: #f9ca24;
+}
+.a {
+  background-color: #f0932b;
+}
+.s {
+  background-color: #eb4d4b;
+}
+.d {
+  background-color: #6ab04c;
+}
+.f {
+  background-color: #c7ecee;
+}
+.g {
+  background-color: #7ed6df;
+}
+.h {
+  background-color: #e056fd;
+}
+.z {
+  background-color: #686de0;
+}
+.x {
+  background-color: #30336b;
+}
+.c {
+  background-color: #95afc0;
+}
+.v {
+  background-color: #95afc0;
+}
+.b {
+  background-color: #22a6b3;
+}
+.n {
+  background-color: #be2edd;
+}
+.o {
+  background-color: #4834d4;
+}
+.p {
+  background-color: #130f40;
+}
