@@ -1,0 +1,107 @@
+header {
+  width: 100%;
+  height: 80px;
+}
+.navi {
+  width: 100%;
+  background-color: white;
+  margin: 0 auto;
+  position: fixed;
+  z-index: 10;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.nav_con {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  /* position: fixed; */
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  margin: 30px 0px;
+}
+
+.btn_wrap {
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+}
+.btn_wrap > .btn {
+  text-align: center;
+  padding: 12px 14px;
+  margin: 12px 10px;
+}
+
+.btn_wrap > .btn:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+.site {
+  background-color: rgba(244, 244, 244, 0.8);
+  border-radius: 99px;
+}
+.site > img {
+  padding-left: 5px;
+}
+.lan {
+  margin-left: 20px;
+}
+
+.bgimg {
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://www.kakaobank.com/static/images/web/renewal/main-bg3.png);
+  background-size: contain;
+}
+article {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  top: 135px;
+  left: 20px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main_con {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-size: 49px;
+  font-weight: 600;
+  line-height: 1.5;
+  padding-bottom: 20px;
+}
+.subT {
+  padding-bottom: 20px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+.download {
+  padding-top: 30px;
+}
+
+.download > .btn {
+  width: 180px;
+  height: 60px;
+  background-color: #fff;
+  border-radius: 12px;
+  border: #fff;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.download > .btn:hover {
+  cursor: pointer;
+}
+.download > .btn > i {
+  padding-right: 5px;
+}

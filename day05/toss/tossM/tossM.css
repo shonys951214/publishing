@@ -1,0 +1,39 @@
+body {
+  font-family: "Pretendard";
+}
+
+header {
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav_con {
+  border: 1px solid black;
+
+  width: 100%;
+  max-width: 1040px;
+  margin: 0 auto;
+  height: 60px;
+  position: fixed;
+}
+
+.logo > img {
+  height: 60px;
+  object-fit: cover;
+}
+
+.nav_btn_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav_btn_wrap > .btn {
+  color: #4e5968;
+  font-size: 15px;
+  padding: 12px 10px;
+}
