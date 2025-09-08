@@ -1,0 +1,106 @@
+header {
+  width: 100%;
+}
+.headwrap {
+  width: 1180px;
+  height: 60px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 24px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.menuwrap {
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu {
+  font-size: 14px;
+  padding: 20px 40px;
+  cursor: pointer;
+  color: #555;
+  transition: all 0.5s;
+}
+.menu:hover {
+  color: white;
+  background-color: #555;
+}
+.mainpage {
+  width: 100%;
+  height: 85vh;
+  background: #000;
+  position: relative;
+  padding-top: 250px;
+}
+.mainvid {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+.textwrap {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1180px;
+  color: white;
+  position: relative;
+}
+
+.maintext {
+  font-size: 120px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+.subtext {
+  opacity: 0.6;
+}
+
+.subtext > span {
+  line-height: 1.5;
+}
+
+.more > button {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: 12px;
+  margin-top: 50px;
+  width: 400px;
+  height: 30px;
+  color: white;
+  border: 1px solid #bbb;
+  transition: all 0.5s;
+}
+.more :hover {
+  background-color: #fff;
+  color: #555;
+}
+
+.news {
+  width: 100%;
+  height: 100%;
+  max-width: 1180px;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  font-size: 24px;
+}
