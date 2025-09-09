@@ -1,0 +1,62 @@
+/* 노션으로 되어있는거 
+깃허브로 옮기고
+나중에 깃허브로 링크바꿔야댐 */
+
+.blog {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #2a4756;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__textwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog__title {
+  font-size: 50px;
+  font-weight: 500;
+}
+.blog__subtitle {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+/* .blog__link {
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin-right: 200px;
+  background-image: url(image/notionWhite.png);
+  background-size: cover;
+  transition: all 1s;
+}
+.blog__link :hover {
+  background-image: url(image/notionBlack.png);
+} */
+.blog__link {
+  padding: 5px;
+  margin-right: 200px;
+}
+.blog__link > .default {
+  width: 100px;
+  height: 100px;
+  display: block;
+}
+.blog__link > .change {
+  width: 100px;
+  height: 100px;
+  display: none;
+}
+/* hover 띄어쓰기 씹금지 */
+.blog__link:hover > .default {
+  display: none;
+}
+
+.blog__link:hover > .change {
+  display: block;
+}

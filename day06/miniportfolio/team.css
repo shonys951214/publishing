@@ -1,0 +1,62 @@
+/* #2a4756 #176899 */
+
+/* 타이틀 기본값
+   font-size: 50px;
+  font-weight: 500;
+   */
+.team {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  color: #2a4756;
+}
+
+.team__title__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 100px auto;
+}
+.team__title__maintitle {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.team__title__subtitle {
+  padding-left: 500px;
+  font-size: 25px;
+}
+.team__infowrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+.infocard {
+  display: flex;
+  max-width: 300px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px;
+}
+.infowrap--img {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+}
+.infowrap--img--title {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  font-size: 18px;
+}
+.infowrap--text {
+  font-size: 15px;
+}
+
+/* team목표
+weare 대체 
+workspace 템플릿 구조
+blog탭 어떻ㄱ게 쓸지
+ 밑에 지도는 뭐임 */

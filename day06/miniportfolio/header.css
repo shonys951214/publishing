@@ -9,6 +9,7 @@ header {
   width: 100vw;
   background-color: aliceblue;
   opacity: 0.9;
+  z-index: 10;
 }
 
 .nav {
@@ -42,5 +43,5 @@ header {
 
 .menu:hover {
   color: white;
-  background-color: #176899;
+  background-color: #2a4756;
 }

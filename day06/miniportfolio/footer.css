@@ -1,0 +1,14 @@
+footer {
+  /* 임시 높이 */
+  margin: 600px auto 0px auto;
+
+  width: 100%;
+  max-width: 1024px;
+  /* margin: 0 auto; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.boxheight {
+  border-top: 1px solid #2a4756;
+}
