@@ -1,20 +1,51 @@
 .work {
   width: 100%;
   max-width: 1024px;
-  margin: 0 auto;
+  margin: 0 auto 50px auto;
   color: #2a4756;
+  height: 600px;
 }
-
 .work__header {
+  margin-bottom: 50px;
   font-size: 50px;
   font-weight: 500;
 }
-.workspace {
+
+.workwrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.test {
+  width: 600px;
   height: 500px;
-  overflow: hidden;
-  margin: 50px 0px;
+  object-fit: cover;
+  position: absolute;
+  top: 0px;
+  left: 400px;
+  border: 1px solid black;
+  z-index: 1;
+  display: flex;
+}
+.test__title {
+  margin: 0 auto;
+  font-size: 20px;
+}
+.work__objects {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  display: flex;
   flex-direction: column;
   position: relative;
+}
+
+.work__title {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 .work__title--name {
@@ -46,6 +77,7 @@
   width: 600px;
   height: 500px;
   transition: all 0.7s;
+  z-index: 2;
 }
 
 @media screen and (max-width: 768px) {
