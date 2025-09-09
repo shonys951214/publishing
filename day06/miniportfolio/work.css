@@ -13,20 +13,12 @@
   height: 500px;
   overflow: hidden;
   margin: 50px 0px;
-  display: flex;
   flex-direction: column;
   position: relative;
 }
-.work__title {
-  margin-bottom: 20px;
-  /* font-size: 18px;
-  padding: 10px;
-  width: 300px;
-  border: 1px solid #176899;
-  border-radius: 8px; */
-}
 
 .work__title--name {
+  margin-bottom: 20px;
   font-size: 18px;
   padding: 10px;
   width: 300px;
@@ -48,11 +40,35 @@
   position: absolute;
   top: 0px;
   left: 400px;
-  /* transition: all 0.5s; */
 }
 
 .ontarget:hover > .work__preview > img {
   width: 600px;
   height: 500px;
   transition: all 0.7s;
+}
+
+@media screen and (max-width: 768px) {
+  .work {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  .work__header {
+    font-size: 35px;
+  }
+  .work__title {
+    margin-bottom: 10px;
+  }
+  .work__title--name {
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: 1px solid #2a4756;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.5s;
+  }
+  .work__preview {
+    display: none;
+  }
 }

@@ -26,37 +26,47 @@
   font-size: 14px;
 }
 
-/* .blog__link {
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  margin-right: 200px;
-  background-image: url(image/notionWhite.png);
-  background-size: cover;
-  transition: all 1s;
-}
-.blog__link :hover {
-  background-image: url(image/notionBlack.png);
-} */
 .blog__link {
   padding: 5px;
   margin-right: 200px;
-}
-.blog__link > .default {
   width: 100px;
   height: 100px;
+}
+.blog__link > .default {
   display: block;
 }
 .blog__link > .change {
-  width: 100px;
-  height: 100px;
   display: none;
 }
-/* hover 띄어쓰기 씹금지 */
+
 .blog__link:hover > .default {
   display: none;
 }
 
 .blog__link:hover > .change {
   display: block;
+}
+@media screen and (max-width: 768px) {
+  .blog {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .blog__textwrap {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .blog__title {
+    font-size: 35px;
+  }
+  .blog__link {
+    width: 100%;
+    padding: 5px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }

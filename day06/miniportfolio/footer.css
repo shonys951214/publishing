@@ -10,5 +10,6 @@ footer {
   align-items: center;
 }
 .boxheight {
+  padding-top: 8px;
   border-top: 1px solid #2a4756;
 }

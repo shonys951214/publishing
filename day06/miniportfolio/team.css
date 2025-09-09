@@ -6,7 +6,7 @@
    */
 .team {
   max-width: 1024px;
-  height: 100%;
+  width: 100%;
   margin: 0 auto;
   color: #2a4756;
 }
@@ -23,7 +23,6 @@
 }
 
 .team__title__subtitle {
-  padding-left: 500px;
   font-size: 25px;
 }
 .team__infowrap {
@@ -55,8 +54,30 @@
   font-size: 15px;
 }
 
-/* team목표
-weare 대체 
-workspace 템플릿 구조
-blog탭 어떻ㄱ게 쓸지
- 밑에 지도는 뭐임 */
+@media screen and (max-width: 768px) {
+  .team {
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .team__title__box {
+    flex-direction: column;
+  }
+  .team__title__maintitle {
+    font-size: 35px;
+  }
+  .team__title__subtitle {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+
+  .team__infowrap {
+    flex-direction: column;
+  }
+  .team__infowrap > .infocard {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+}
