@@ -1,0 +1,72 @@
+/* 노션으로 되어있는거 
+깃허브로 옮기고
+나중에 깃허브로 링크바꿔야댐 */
+
+.blog {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  color: #2a4756;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog__textwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.blog__title {
+  font-size: 50px;
+  font-weight: 500;
+}
+.blog__subtitle {
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.blog__link {
+  padding: 5px;
+  margin-right: 200px;
+  width: 100px;
+  height: 100px;
+}
+.blog__link > .default {
+  display: block;
+}
+.blog__link > .change {
+  display: none;
+}
+
+.blog__link:hover > .default {
+  display: none;
+}
+
+.blog__link:hover > .change {
+  display: block;
+}
+@media screen and (max-width: 768px) {
+  .blog {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .blog__textwrap {
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .blog__title {
+    font-size: 35px;
+  }
+  .blog__link {
+    width: 100%;
+    padding: 5px;
+    margin-right: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -1,0 +1,110 @@
+/* #2a4756 #176899 */
+
+/* 타이틀 기본값
+   font-size: 50px;
+  font-weight: 500;
+   */
+.team {
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
+  color: #2a4756;
+}
+
+.team__title__box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin: 100px auto;
+}
+.team__title__maintitle {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+.team__title__subtitle {
+  font-size: 25px;
+}
+.team__infowrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  margin-bottom: 50px;
+}
+.infocard {
+  display: flex;
+  max-width: 300px;
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0px 30px;
+}
+.infowrap--img {
+  display: flex;
+  flex-direction: column;
+  font-size: 60px;
+}
+
+.infocard:hover > .infowrap--img {
+  -webkit-animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1)
+    both;
+  animation: scale-up-center 0.4s cubic-bezier(0.39, 0.575, 0.565, 1) both;
+}
+@-webkit-keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+@keyframes scale-up-center {
+  0% {
+    -webkit-transform: scale(0.5);
+    transform: scale(0.5);
+  }
+  100% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+}
+
+.infowrap--img--title {
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  font-size: 18px;
+}
+.infowrap--text {
+  font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .team {
+    max-width: 500px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .team__title__box {
+    flex-direction: column;
+  }
+  .team__title__maintitle {
+    font-size: 35px;
+  }
+  .team__title__subtitle {
+    font-size: 26px;
+    padding-top: 30px;
+  }
+
+  .team__infowrap {
+    flex-direction: column;
+  }
+  .team__infowrap > .infocard {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto 50px auto;
+  }
+}

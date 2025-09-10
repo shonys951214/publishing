@@ -1,0 +1,87 @@
+/* 모바일 화면 기본형
+@media screen and (max-width: 768px) {
+}
+밑에 요소 maxwidth 500px 
+ */ /* team목표
+weare 대체 
+workspace 템플릿 구조
+blog탭 어떻ㄱ게 쓸지
+ 밑에 지도는 뭐임 */
+
+/* hover 띄어쓰기 씹금지 */
+
+/* article blog 노션으로 되어있는거 
+깃허브로 옮기고
+나중에 깃허브로 링크바꿔야댐 */
+
+body {
+  font-family: "Pretendard";
+}
+/* 다쓰고 가시성 확인해보고 바꾸기 */
+header {
+  position: fixed;
+  top: 0;
+  height: 80px;
+  width: 100vw;
+  background-color: aliceblue;
+  opacity: 0.9;
+  z-index: 10;
+}
+
+.nav {
+  display: flex;
+  color: #2a4756;
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 5px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 20px;
+  font-size: 25px;
+  cursor: pointer;
+}
+.menuwrap {
+  display: flex;
+}
+.menuwrap--ikon {
+  display: none;
+  font-size: 25px;
+}
+
+.menu {
+  padding: 10px;
+  margin: 0px 10px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+
+.menu:hover {
+  color: white;
+  background-color: #2a4756;
+}
+
+/* 나중에 햄버거아이콘 반응형으로 만들어서
+누르면 오른쪽 사이드바 or 아래로 작은바
+만들어서 누르면 메뉴노출시키기 */
+@media screen and (max-width: 768px) {
+  header {
+    width: 100%;
+  }
+  .nav {
+    max-width: 500px;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .menuwrap {
+    display: none;
+  }
+  .menuwrap--ikon {
+    display: flex;
+  }
+}

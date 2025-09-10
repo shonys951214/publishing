@@ -1,0 +1,29 @@
+/* maxwidth 1400px  */
+.body {
+  font-family: "GMarketSans";
+}
+
+:root {
+  h1 {
+    font-size: 44px;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 58px;
+  }
+  .subtitle {
+    margin: 30px 0 0;
+    font-size: 16px;
+    color: #666;
+    line-height: 34px;
+  }
+}
+
+/* 짙은 파랑 #002c5f
+연한 파랑 #007fa8
+더연한파랑 #00aad2
+
+연회색 #f6f3f2
+
+footer {
+    font #999999
+} */
