@@ -1,0 +1,32 @@
+.brandpage {
+  padding-top: 140px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.brandpage__containor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.brandpage__containor__titlewrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.brandpage__containor__titlewrap--maintitle {
+  margin-bottom: 50px;
+}
+.brandpage__containor__titlewrap--subtitle {
+  color: #666666;
+}
+.brandpage__containor__maincontents {
+  max-width: 1120px;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  display: flex;
+}

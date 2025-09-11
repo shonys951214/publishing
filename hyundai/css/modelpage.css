@@ -1,0 +1,110 @@
+.modelpage {
+  padding-top: 140px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.modelpage__containor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.modelpage__containor__titlewrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.modelpage__containor__titlewrap--maintitle {
+  margin-bottom: 50px;
+}
+.modelpage__containor__titlewrap--subtitle {
+  color: #666666;
+}
+.modelpage__containor__maincontents {
+  max-width: 1120px;
+  width: 100%;
+  margin: 50px auto 0 auto;
+
+  position: relative;
+
+  display: flex;
+  /* justify-content: space-between; */
+}
+.modelpage__containor__maincontents--mainmodel > img {
+  object-fit: contain;
+  cursor: pointer;
+}
+.modelpage__containor__maincontents--mainmodel > .ranking {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 60px;
+  height: 60px;
+  background: #007fa8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.modelpage__containor__maincontents--submodelwrap {
+  margin-left: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.modelpage__containor__maincontents--submodel--textwrap {
+  padding-top: 10px;
+  padding-left: 32px;
+}
+.modelpage__containor__maincontents--submodel--textwrap > .agewrap {
+  display: flex;
+  color: #666666;
+}
+.modelpage__containor__maincontents--submodel--textwrap > .agewrap > .age {
+  padding: 0 16px;
+  border-left: 1px solid #666666;
+  cursor: pointer;
+}
+.modelpage__containor__maincontents--submodel--textwrap > .agewrap > .all {
+  color: #007fa8;
+  padding-right: 16px;
+  cursor: pointer;
+}
+.modelpage__containor__maincontents--submodel--textwrap > .rankername {
+  font-size: 37px;
+  font-weight: 600;
+  padding-top: 40px;
+  cursor: pointer;
+}
+
+.modelpage__containor__maincontents--submodel--underwrap {
+  display: flex;
+}
+
+.modelpage__containor__maincontents--submodel {
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+}
+
+.modelpage__containor__maincontents--submodel--img > img {
+  width: 224px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.modelpage__containor__maincontents--submodel--text {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  line-height: 30px;
+  cursor: pointer;
+}

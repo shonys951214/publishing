@@ -1,0 +1,112 @@
+.evcarpage {
+  padding-top: 140px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.evcarpage__containor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.evcarpage__containor__titlewrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.evcarpage__containor__titlewrap--maintitle {
+  margin-bottom: 50px;
+}
+.evcarpage__containor__titlewrap--subtitle {
+  color: #666666;
+}
+.evcarpage__containor__maincontents {
+  max-width: 1120px;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.evcarpage__containor__maincontents__evinfo {
+  display: flex;
+  flex-direction: column;
+}
+/* evcarpage__containor__maincontents__evinfo--top */
+.evcarpage__containor__maincontents__evinfo--bottom {
+  position: relative;
+  padding: 35px 40px 37px;
+  background-color: #f6f3f2;
+}
+.evinfo--bottom--maintitle {
+  font-size: 24px;
+  font-weight: 600;
+}
+.evinfo--bottom--subtitle {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 30px;
+  margin-top: 6px;
+  color: #666666;
+}
+.evinfo--bottom--btnwrap {
+  margin-top: 34px;
+  display: flex;
+}
+.evinfo--bottom--btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #002c5f;
+}
+.evinfo--bottom--btn--borderspan {
+  width: 1px;
+  height: 0.9em;
+  background: #999;
+  margin: 0 15px;
+}
+
+.evcarpage__containor__maincontents__evinfo--bottom:after {
+  position: absolute;
+  right: 40px;
+  bottom: 40px;
+  width: 180px;
+  height: 91px;
+  background: url(../img/main_ev_after.avif) no-repeat 0 0;
+  background-size: 180px auto;
+  content: "";
+}
+
+.evcarpage__containor__maincontents__evcard {
+  width: 100%;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f5f5;
+}
+.evcarpage__containor__maincontents__evcard__title {
+  height: 37px;
+  font-size: 30px;
+  font-weight: 550;
+}
+.evcarpage__containor__maincontents__evcard__img {
+  margin-top: 10px;
+}
+.evcarpage__containor__maincontents__evcard__img > img {
+  object-fit: contain;
+  width: 100%;
+}
+.evcarpage__containor__maincontents__evcard__info {
+  width: 100%;
+}
+.evcarpage__containor__maincontents__evcard__info > .infowrap {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}

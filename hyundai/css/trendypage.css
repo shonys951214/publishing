@@ -1,0 +1,46 @@
+.trendypage {
+  padding-top: 140px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.trendypage__containor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.trendypage__containor__titlewrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.trendypage__containor__titlewrap--maintitle {
+  margin-bottom: 50px;
+}
+.trendypage__containor__titlewrap--subtitle {
+  color: #666666;
+}
+.trendypage__containor__maincontents {
+  max-width: 1120px;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  display: flex;
+}
+/*       <article class="trendypage">
+        <div class="trendypage__containor">
+          <div class="trendypage__containor__titlewrap">
+            <h1 class="trendypage__containor__titlewrap--maintitle">
+              Trendy Hyundai
+            </h1>
+
+            <div class="trendypage__containor__titlewrap--subtitle">
+              현대자동차와 현대닷컴 소식을 이제 트렌드 리포트로 만나보세요.
+            </div>
+          </div>
+        </div>
+        <div class="trendypage__containor__maincontents">1120</div>
+      </article> */

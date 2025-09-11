@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>포트폴리오2</title>
     <link rel="stylesheet" href="css/reset.css" />
     <link
       href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
@@ -12,16 +12,19 @@
     <link rel="stylesheet" href="css/font.css" />
     <link rel="stylesheet" href="css/root.css" />
     <link rel="stylesheet" href="css/header.css" />
-    <link rel="stylesheet" href="css/maincontainor.css" />
-    <link rel="stylesheet" href="css/intropage.css" />
+    <link rel="stylesheet" href="css/homepage.css" />
+    <link rel="stylesheet" href="css/modelpage.css" />
+    <link rel="stylesheet" href="css/evcarpage.css" />
   </head>
   <body>
     <header>
-      <div class="headerwrap">
+      <article class="headerwrap">
         <div class="navwrap">
-          <div class="nav__logo"><img src="img/현대자동차.png" alt="" /></div>
-          <div class="nav__bar">
-            <ul class="nav__menuwrap">
+          <div class="navwrap__logo">
+            <img src="img/hyundai_logo.avif" alt="" />
+          </div>
+          <div class="navwrap__containor">
+            <ul class="navwrap__menuwrap">
               <li class="nav__menu">모델</li>
               <li class="nav__menu">구매/이벤트</li>
               <li class="nav__menu">서비스/멤버십</li>
@@ -30,43 +33,242 @@
               <li class="nav__menu">SHOP</li>
               <li class="nav__menu">Bluelink Store</li>
             </ul>
-            <div class="nav__iconwrap">
-              <div class="nav__icon trendy">
-                <strong>Trendy</strong><span>Hyundai</span>
-              </div>
-              <div class="nav__icon lan">
-                KR <span><i class="ri-arrow-up-s-fill"></i></span>
-              </div>
-              <div class="nav__icon borderspan"></div>
-              <div class="nav__icon login">
+            <ul class="nav__personalwrap">
+              <li class="nav__personal linktext">
+                <span>내차</span><span>추천받기</span>
+              </li>
+              <li class="nav__personal lan">KR</li>
+              <li class="nav__personal borderspan"></li>
+              <li class="nav__personal mypage">
                 <img src="img/icn_mypage.png" alt="" />
-              </div>
-              <div class="nav__icon search">
+              </li>
+              <li class="nav__personal search">
                 <img src="img/icn_search.png" alt="" />
+              </li>
+
+              <li class="nav__personal table">
+                <i class="ri-menu-3-fill"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </article>
+    </header>
+    <section>
+      <article class="homepage">
+        <div class="homepage__containor">
+          <div class="homepage__containor__textwrap">
+            <div class="homepage__containor__textwrap--maintext">SANTA FE</div>
+            <div class="homepage__containor__textwrap--subtext">
+              일상과 일상 사이를 열다
+            </div>
+          </div>
+          <div class="homepage__containor__product--img">
+            <img src="img/main-santafe-25my-kv-w.avif" alt="" />
+          </div>
+          <div class="homepage__containor__iconwrap">
+            <div class="homepage__containor__iconwrap__controler">
+              <div
+                class="homepage__containor__iconwrap__controler__circleicnwrap"
+              >
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn selected"
+                ></div>
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn circle"
+                ></div>
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn circle"
+                ></div>
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn circle"
+                ></div>
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn circle"
+                ></div>
+                <div
+                  class="homepage__containor__iconwrap__controler__circleicn circle"
+                ></div>
+
+                <div class="homepage__containor__iconwrap__controler__pausebtn">
+                  <i class="ri-play-fill"></i>
+                </div>
               </div>
-              <div class="nav__icon table">
-                <i class="ri-menu-3-line"><div class="hovertable"></div></i>
+            </div>
+            <div class="homepage__containor__iconwrap__personalnaviwrap">
+              <div class="homepage__containor__iconwrap__personalnavi">
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--preview"
+                >
+                  <i class="ri-arrow-left-s-line"></i>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <span class="estimation">견적내기</span>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <span class="consult">구매상담</span>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <span class="test_driving">시승신청</span>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <!-- 매장검색 판매처로 바꾸면 크기가;; -->
+                  <span class="branch">매장검색</span>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <span class="benefit">구매혜택</span>
+                </div>
+                <div
+                  class="homepage__containor__iconwrap__personalnavi--iconcard"
+                >
+                  <span class="reservation">정비예약</span>
+                </div>
+                <div class="homepage__containor__iconwrap__personalnavi--next">
+                  <i class="ri-arrow-right-s-line"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="homepage__containor__slidebarwrap">
+            <div class="homepage__containor__slidebar left"></div>
+            <div class="homepage__containor__slidebar right"></div>
+          </div>
+        </div>
+      </article>
+      <article class="modelpage">
+        <div class="modelpage__containor">
+          <div class="modelpage__containor__titlewrap">
+            <h1 class="modelpage__containor__titlewrap--maintitle">Model</h1>
+            <span class="modelpage__containor__titlewrap--subtitle"
+              >최근 한 달 동안 고객님들이 가장 많이 구매하신 모델입니다.
+            </span>
+          </div>
+          <div class="modelpage__containor__maincontents">
+            <div class="modelpage__containor__maincontents--mainmodel">
+              <div class="ranking">1위</div>
+              <img src="img/avante.avif" alt="" />
+            </div>
+            <div class="modelpage__containor__maincontents--submodelwrap">
+              <div
+                class="modelpage__containor__maincontents--submodel--textwrap"
+              >
+                <div class="agewrap">
+                  <div class="all">전체</div>
+                  <div class="age borderspan two">2~30대</div>
+                  <div class="age four">40대</div>
+                  <div class="age five">50대</div>
+                </div>
+                <div class="rankername">1위. 아반떼</div>
+              </div>
+              <div
+                class="modelpage__containor__maincontents--submodel--underwrap"
+              >
+                <div class="modelpage__containor__maincontents--submodel">
+                  <div
+                    class="modelpage__containor__maincontents--submodel--img"
+                  >
+                    <img src="img/palisade.avif" alt="" />
+                  </div>
+                  <div
+                    class="modelpage__containor__maincontents--submodel--text"
+                  >
+                    2위. 디 올 뉴 팰리세이드 Hybrid
+                  </div>
+                </div>
+                <div class="modelpage__containor__maincontents--submodel">
+                  <div
+                    class="modelpage__containor__maincontents--submodel--img"
+                  >
+                    <img src="img/kona.avif" alt="" />
+                  </div>
+                  <div
+                    class="modelpage__containor__maincontents--submodel--text"
+                  >
+                    3위. 코나
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </header>
-    <section class="maincontainor">
-      <article class="intropage__containor">
-        <div class="intropage">
-          <div class="intropage__textwrap">
-            <h1 class="intropage__textwrap--maintext">SANTA FE</h1>
-            <span class="intropage__textwrap--subtext">
-              일상과 일상 사이를 열다
-            </span>
-          </div>
-          <div class="intropage__imgwrap">
-            <img src="img/main-santafe-25my-kv-w.avif" alt="" />
+      </article>
+
+      <article class="evcarpage">
+        <div class="evcarpage__containor">
+          <div class="evcarpage__containor__titlewrap">
+            <h1 class="evcarpage__containor__titlewrap--maintitle">전기차</h1>
+
+            <div class="evcarpage__containor__titlewrap--subtitle">
+              지구 환경을 품은 현대자동차의 미래형 모빌리티를 경험해보세요.
+            </div>
           </div>
         </div>
-        <div class="intropage__iconwrap"></div>
+        <div class="evcarpage__containor__maincontents">
+          <div class="evcarpage__containor__maincontents__evinfo">
+            <div class="evcarpage__containor__maincontents__evinfo--top">
+              <img src="img/main_ev.avif" alt="" />
+            </div>
+            <div class="evcarpage__containor__maincontents__evinfo--bottom">
+              <div class="evinfo--bottom--maintitle">
+                충전소&서비스 네트워크
+              </div>
+              <div class="evinfo--bottom--subtitle">
+                고객님의 계신 곳 근처의 충전소 및 서비스 네트워크를 안내해
+                드립니다.
+              </div>
+              <div class="evinfo--bottom--btnwrap">
+                <div class="evinfo--bottom--btn">
+                  전기/수소차 충전소 찾기<i class="ri-arrow-right-s-line"></i>
+                </div>
+                <div class="evinfo--bottom--btn--borderspan"></div>
+                <div class="evinfo--bottom--btn">
+                  N브랜드 급속 충전소<i class="ri-arrow-right-s-line"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="evcarpage__containor__maincontents__evcard">
+            <div class="evcarpage__containor__maincontents__evcard__title">
+              The new IONIQ 6
+            </div>
+            <div class="evcarpage__containor__maincontents__evcard__img">
+              <img src="img/main_ev_card.avif" alt="" />
+            </div>
+            <div class="evcarpage__containor__maincontents__evcard__info">
+              <div class="infowrap">
+                <div class="info--key">가격</div>
+                <div class="info--value">4,856만원~</div>
+              </div>
+              <div class="infowrap">
+                <div class="info--key">전비</div>
+                <div class="info--value">6.3 km/kWh</div>
+              </div>
+              <div class="infowrap">
+                <div class="info--key">추천 트림</div>
+                <div class="info--value">2WD Prestige(롱레인지) 18인치</div>
+              </div>
+            </div>
+            <div
+              class="evcarpage__containor__maincontents__evcard__makebtn"
+            ></div>
+            <div
+              class="evcarpage__containor__maincontents__evcard__pagebtnwrap"
+            ></div>
+          </div>
+        </div>
       </article>
+
+      <article class="footer"></article>
     </section>
   </body>
 </html>

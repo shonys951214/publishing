@@ -1,0 +1,32 @@
+.newspage {
+  padding-top: 140px;
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+}
+.newspage__containor {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.newspage__containor__titlewrap {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+.newspage__containor__titlewrap--maintitle {
+  margin-bottom: 50px;
+}
+.newspage__containor__titlewrap--subtitle {
+  color: #666666;
+}
+.newspage__containor__maincontents {
+  max-width: 1120px;
+  width: 100%;
+  margin: 50px auto 0 auto;
+  position: relative;
+  display: flex;
+}

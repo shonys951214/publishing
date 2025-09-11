@@ -1,0 +1,165 @@
+.homepage {
+  width: 100%;
+  height: 100vh;
+  background-image: url(../img/car-bg-w.avif);
+  background-size: cover;
+}
+
+.homepage__containor {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  top: 100px;
+  left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage__containor__textwrap {
+  padding-top: 50px;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto 50px auto;
+}
+.homepage__containor__textwrap--maintext {
+  font-size: 70px;
+  font-weight: 600;
+  padding-bottom: 30px;
+}
+
+.homepage__containor__textwrap--subtext {
+  font-size: 24px;
+  font-weight: 500;
+}
+.homepage__containor__product--img {
+  object-fit: contain;
+  margin-bottom: 25px;
+}
+.homepage__containor__iconwrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.homepage__containor__iconwrap__controler {
+  width: 100%;
+}
+.homepage__containor__iconwrap__controler__circleicnwrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.homepage__containor__iconwrap__controler__circleicn {
+  padding: 6px;
+  border-radius: 999px;
+  cursor: pointer;
+  margin: 6px;
+}
+.homepage__containor__iconwrap__controler__circleicnwrap > .circle {
+  background-color: #999999;
+}
+
+.homepage__containor__iconwrap__controler__circleicnwrap > .selected {
+  background-color: #007fa8;
+}
+.homepage__containor__iconwrap__controler__pausebtn {
+  cursor: pointer;
+
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 2px;
+  font-size: 13px;
+  color: white;
+  width: 18px;
+  height: 18px;
+  background: #575757;
+  border-radius: 10px;
+}
+.homepage__containor__iconwrap__personalnaviwrap {
+  max-width: 800px;
+  width: 100%;
+  height: 100px;
+}
+.homepage__containor__iconwrap__personalnavi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.homepage__containor__iconwrap__personalnavi--iconcard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+  height: 100%;
+}
+.homepage__containor__iconwrap__personalnavi--preview {
+  font-size: 30px;
+}
+.homepage__containor__iconwrap__personalnavi--next {
+  font-size: 30px;
+}
+
+.homepage__containor__iconwrap__personalnavi--iconcard > span {
+  font-size: 15px;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+.homepage__containor__iconwrap__personalnavi--iconcard > .estimation {
+  background: url(../img/견적내기estimation.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.consult {
+  background: url(../img/구매상담consult.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.test_driving {
+  background: url(../img/시승신청test_driving.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.branch {
+  background: url(../img/판매처\ 검색customer_branch.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.benefit {
+  background: url(../img/구매혜택monthly_benefit.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.reservation {
+  background: url(../img/정비예약reservation.png) no-repeat;
+  background-size: 100%;
+  background-position: 50%;
+}
+.homepage__containor__slidebarwrap {
+  display: flex;
+  padding-top: 27px;
+}
+.homepage__containor__slidebar {
+  width: 34px;
+  height: 3px;
+  border-radius: 1px;
+}
+.homepage__containor__slidebarwrap > .left {
+  border-radius: 3px 0 0 3px;
+  background-color: #000;
+  cursor: pointer;
+}
+.homepage__containor__slidebarwrap > .right {
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
